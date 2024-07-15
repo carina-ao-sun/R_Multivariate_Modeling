@@ -1,0 +1,63 @@
+---
+title: "HW1"
+author: "Carina_Sun"
+date: "2024-02-20"
+output:
+  word_document: default
+  pdf_document: default
+---
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+library(psych)
+library(tidyverse)
+library(tinytex)
+library(markdown)
+library(skimr)
+
+# 2.	Read in your file and Assign it to the name grecollege 
+grecollege <- read.csv("grecollege.csv")
+
+# 3.	Check the structure of the data using str
+str(grecollege)
+
+# 4.	Change admit into a factor using as.factor
+grecollege$admit <- as.factor(grecollege$admit)
+
+# 5.	Check the structure using str again and confirm it is a factor. 
+str(grecollege)
+
+# 6.	Index all columns
+names(grecollege)
+
+# 7.	Index the 40th row, first two columns
+grecollege[40, 1:2]
+
+# 8.	Use the R commands describe or glimpse to get descriptive statistics for all  variables, including mean, sd, var, and n’s.
+describe(grecollege)
+
+# 9.	Use describeBY to group by admit to get descriptive statistics.
+describeBy(grecollege, group = grecollege$admit)
+
+# 10.  Using counts and barplot create a barplot for gre and label axes.
+gre_counts <- table(grecollege$gre)
+barplot(gre_counts, xlab = "GRE Score", ylab = "Count")
+
+# 11. Create histogram for GRE with main labels and axes labels
+hist(grecollege$gre, main = "histogram of GRE Scores Distribution", xlab = "GRE Score", ylab = "Frequencey")
+
+# 12.  Create a scatterplot for gre and gpa with main labels and axes. Change any of the options for colors, cex size, points, main and sub labels font sizes, bold, etc.
+plot (grecollege$gre, grecollege$gpa, main = "Scatter Plot of GRE Scores perform GPA", xlab = "GRE Score", ylab = "GPA", col = "aquamarine2", cex = 0.8, pch = 16)
+
+# 13. Use lm to get a linear model with gpa as the DV and gre as the IV
+#a. Use Summary to get a print out of the lm  
+
+lm_model <- lm(gpa ~ gre, data = grecollege)
+summary(lm_model)
+
+#b.  INTERPRET the coefficient and results.
+# The Intercept is the baseline GPA when GRE equals to 0 is 2.6458978, and the Gre coefficient is small and significantly positive, as P <0.001. Their equation is GPA=0.0012660×GRE+2.6458978. However, since the R-squared is low, other factors should also be included in the model predicting GPA.
+
+```

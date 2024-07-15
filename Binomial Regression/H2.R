@@ -1,0 +1,98 @@
+getwd()
+
+library(psych)
+library(stats)
+library(car)
+library(tinytex)
+library(tidyverse)
+library(ResourceSelection)
+
+
+religion <- read.csv("RELIGION.csv")
+
+# 1: Check the data structure
+str(religion)  
+# The table includes a mix of categorical variables (=sex, educ, married, race..) and numerical variables (age, attend, agesq). Some categorical variables are binomial - like race, school and relschol
+
+# 2: Re-run the data changing the all character strings to factors using the stringAsFactors = T argument when you read in the data. 
+religion <- read.csv("RELIGION.csv", stringsAsFactors = TRUE)
+
+# 3.	Describe the data 
+describe(religion)
+describeBy(religion, group = religion$relschol)
+
+# 4.	For the ordered categorical variables, income, we check the order of the levels. Check the order of income levels. 
+levels(religion$income) 
+#a. What is the problem with the income order and why is this a problem?  - This is not in order. It is in order of the numbers and then alphabets rather than the numerical values. We need to reorder them.
+
+religion$income[religion$income==""] <- NA
+religion$income <-factor(religion$income,levels(religion$income)[c(13, 2,4,6:12,3,5)])
+# 4b.Check again, found in right order!
+levels(religion$income) 
+
+# 5.	Create a new variable called "income0" which treats income categories as a continuous scale. 
+religion$income0 <- as.numeric(religion$income)
+# Yes, they are in the same order!
+
+# 6. The dichotomous outcome variable 
+religion$relschol <- as.numeric(religion$relschol)-1
+religion$race <- as.numeric(religion$race)-1
+
+# 7.get rid of the NA’s 
+religion <- religion %>% dplyr:: select(race, attend, income0,relschol) %>% na.omit()
+str(religion)
+# The number of observations decreased from 626 to 590 because we omitted the row with NA.
+
+# 8. Run a glm logit regression
+relschol_logit <- glm(relschol ~ race + attend + income0, data = religion, family = binomial)
+
+#8a.
+anova(relschol_logit, test = "Chisq")
+# This is good fit. The residual deviance of all factors are significantly lower than the null deviance, especially race and income.
+
+# 8b. Exponentiate
+exp(coef(relschol_logit))
+#For the race variable, an individual from the reference group (non-white) has odds of attending a religious school that are 72.4% less than the odds for white individuals
+#For every additional religious service attended, the odds of being admitted to a religious school increase by a factor of 1.393
+#For each one-unit increase in the income category, the odds of attending a religious school increase by a factor of 1.222
+
+#8c
+vif(relschol_logit)
+# No evidence of multicollinearity since data is no greater 5
+#8d
+car::Anova(relschol_logit, type=3)
+# All the independent variables are statistically significant to improve the model's fit.
+#8e
+hoslem.test(relschol_logit$y, fitted(relschol_logit))
+# This is good fit, the p value is bigger than 0.05, so the model does fit the data well.
+
+# 9. Re-run the same model, taking income0 out of the model and assign it to the name  relschol_logit2
+relschol_logit2 <- glm(relschol ~ race + attend, data = religion, family = binomial)
+#9a
+anova(relschol_logit2, test = "Chisq")
+# This is good fit. The residual deviance of both factors are significantly lower than the null deviance, especially race.
+# 9b. Exponentiate
+exp(coef(relschol_logit2))
+#The odds of attending a religious school for the white group decrease by a factor of about 0.332 compared to the non-white group 
+#For each additional religious service attended, the odds of attending a religious school increase by a factor of 1.324
+#9c
+vif(relschol_logit2)
+# No evidence of multicollinearity since data is no greater 5
+#9d
+car::Anova(relschol_logit2, type=3)
+# Both the independent variables are statistically significant to improve the model's fit.
+#9e
+hoslem.test(relschol_logit2$y, fitted(relschol_logit2))
+# This is good fit, the p value is over 0.05, so the model does fit the data well.
+
+# 10. Compare the models using 
+AIC(relschol_logit)
+AIC(relschol_logit2)
+anova(relschol_logit, relschol_logit2, test = "Chisq")
+# relschol_logit has lower residual deviance than relschol_logit2 with p value lower than 0.05, indicating it is significantly a better fit. 
+
+# 11. generate a new dataframe
+newdata <- data.frame(attend = 5, income0 = 4, race = 0)
+predict_value<- predict(relschol_logit, newdata, type = "response")
+predict_value
+#students who attend religious services five times per month, have a family income of $20,000-$29,999, and are non-white have a 24.5% predicted probability of attending a religious school, according to the mode

@@ -1,0 +1,627 @@
+id,sex,age,educ,income,relschol,married,attend,agesq,race
+2,female,30,postgraduate work/degree,"$100,000-$149,999",no,married,6,900,white
+3,female,32,postgraduate work/degree,"$40,000-$49,999",no,married,5,1024,white
+4,female,51,high school graduate (12),"$100,000-$149,999",no,married,2,2601,white
+5,female,18,high school graduate (12),"$15,000-$19,999",no,not married,6,324,white
+6,female,37,college graduate,"$40,000-$49,999",no,married,6,1369,white
+7,male,18,high school graduate (12),"$15,000-$19,999",no,not married,5,324,white
+9,female,90,college graduate,,no,not married,5,8100,white
+10,female,70,less than high school graduate (0-11),"under $10,000",no,not married,5,4900,non-white
+13,female,57,some college,"$20,000-$29,999",no,married,6,3249,white
+15,female,72,high school graduate (12),"$10,000-$14,999",no,married,5,5184,white
+17,female,46,less than high school graduate (0-11),"under $10,000",no,not married,3,2116,non-white
+18,female,45,college graduate,"$50,000-$59,999",no,married,5,2025,white
+20,female,55,less than high school graduate (0-11),"$20,000-$29,999",no,married,3,3025,white
+22,female,52,some college,"$30,000-$39,999",no,married,6,2704,white
+24,female,18,some college,"$10,000-$14,999",no,married,4,324,white
+25,female,50,college graduate,"$30,000-$39,999",no,not married,2,2500,white
+28,female,53,some college,"$20,000-$29,999",no,married,5,2809,white
+30,female,75,high school graduate (12),"$150,000 or over",no,married,6,5625,non-white
+31,female,57,high school graduate (12),"$15,000-$19,999",no,married,4,3249,white
+32,female,43,high school graduate (12),"$40,000-$49,999",no,married,2,1849,white
+39,female,47,college graduate,"$100,000-$149,999",no,married,6,2209,white
+40,female,53,less than high school graduate (0-11),"under $10,000",no,not married,5,2809,white
+41,male,80,some college,"$30,000-$39,999",no,married,5,6400,white
+42,male,56,high school graduate (12),"$30,000-$39,999",no,married,5,3136,white
+45,female,72,less than high school graduate (0-11),"under $10,000",no,not married,2,5184,non-white
+47,female,60,some college,"$20,000-$29,999",no,married,1,3600,non-white
+48,male,31,college graduate,"$30,000-$39,999",no,married,5,961,white
+53,female,39,some college,"$20,000-$29,999",no,married,4,1521,white
+56,female,52,some college,"$15,000-$19,999",no,married,6,2704,white
+57,male,68,college graduate,"$40,000-$49,999",no,married,5,4624,white
+58,male,18,high school graduate (12),"$30,000-$39,999",no,not married,5,324,non-white
+59,male,28,high school graduate (12),"$80,000-$99,999",no,not married,6,784,white
+60,female,20,some college,"$20,000-$29,999",no,not married,3,400,white
+61,female,92,less than high school graduate (0-11),"under $10,000",no,not married,5,8464,non-white
+63,female,18,some college,"$40,000-$49,999",no,not married,4,324,white
+64,female,31,high school graduate (12),"$30,000-$39,999",no,not married,5,961,white
+65,male,41,some college,"$40,000-$49,999",no,married,3,1681,white
+66,male,25,postgraduate work/degree,,no,not married,3,625,white
+67,female,64,some college,"$10,000-$14,999",no,not married,5,4096,white
+69,male,30,some college,"$40,000-$49,999",no,married,5,900,white
+70,female,51,high school graduate (12),"$30,000-$39,999",no,married,5,2601,white
+71,male,78,some college,"$50,000-$59,999",no,married,5,6084,white
+72,female,50,high school graduate (12),"$50,000-$59,999",no,married,6,2500,white
+75,female,29,college graduate,"$40,000-$49,999",no,married,2,841,white
+76,female,59,less than high school graduate (0-11),"$30,000-$39,999",no,married,5,3481,white
+78,male,29,some college,"$30,000-$39,999",no,married,2,841,white
+79,female,53,some college,"$70,000-$79,999",no,married,6,2809,white
+80,female,29,college graduate,,no,married,3,841,white
+82,male,55,some college,"$40,000-$49,999",no,married,5,3025,white
+83,female,33,some college,"$20,000-$29,999",no,married,3,1089,white
+84,female,55,some college,,no,not married,5,3025,white
+85,male,48,less than high school graduate (0-11),"$20,000-$29,999",no,married,5,2304,white
+86,female,60,high school graduate (12),"$20,000-$29,999",no,married,5,3600,white
+88,female,64,trade/technical/vocational training,"$10,000-$14,999",no,not married,6,4096,white
+91,female,31,less than high school graduate (0-11),"under $10,000",no,not married,4,961,non-white
+93,female,46,high school graduate (12),,no,married,6,2116,white
+94,female,29,college graduate,"$50,000-$59,999",no,married,6,841,white
+98,male,25,some college,"$10,000-$14,999",no,not married,5,625,non-white
+99,female,68,high school graduate (12),,no,married,5,4624,white
+102,male,46,postgraduate work/degree,"$80,000-$99,999",no,married,2,2116,white
+108,female,25,college graduate,"$40,000-$49,999",no,not married,2,625,white
+110,male,26,high school graduate (12),,no,not married,5,676,white
+111,female,70,high school graduate (12),"under $10,000",no,not married,5,4900,non-white
+112,female,45,some college,"$30,000-$39,999",no,married,5,2025,non-white
+113,female,34,postgraduate work/degree,"$50,000-$59,999",no,married,4,1156,white
+119,male,34,high school graduate (12),"$15,000-$19,999",no,married,4,1156,white
+121,female,26,college graduate,"$50,000-$59,999",no,married,4,676,white
+123,female,52,some college,"$40,000-$49,999",no,married,5,2704,white
+125,male,46,some college,"$70,000-$79,999",no,married,6,2116,white
+126,female,57,high school graduate (12),"$15,000-$19,999",no,married,6,3249,white
+127,male,49,high school graduate (12),"$30,000-$39,999",no,married,6,2401,white
+128,female,40,some college,"$50,000-$59,999",no,married,5,1600,white
+129,male,39,college graduate,"$70,000-$79,999",no,married,3,1521,non-white
+130,male,45,postgraduate work/degree,,no,married,5,2025,white
+132,female,28,high school graduate (12),,no,married,3,784,white
+133,female,30,college graduate,"$40,000-$49,999",no,married,5,900,white
+134,male,30,college graduate,"$20,000-$29,999",no,married,4,900,non-white
+136,male,45,college graduate,"$50,000-$59,999",no,married,2,2025,white
+137,female,33,some college,"$15,000-$19,999",no,not married,3,1089,white
+139,male,48,postgraduate work/degree,"$40,000-$49,999",no,married,6,2304,white
+140,male,63,some college,"$50,000-$59,999",no,married,5,3969,white
+141,male,50,college graduate,"$80,000-$99,999",no,married,4,2500,white
+142,female,78,some college,,no,married,5,6084,white
+143,male,45,high school graduate (12),"$50,000-$59,999",no,not married,3,2025,white
+144,female,32,some college,"$15,000-$19,999",no,married,5,1024,white
+147,female,,high school graduate (12),,no,not married,6,,white
+148,male,26,postgraduate work/degree,"under $10,000",no,not married,5,676,white
+151,male,42,some college,"$50,000-$59,999",no,married,4,1764,white
+152,female,38,postgraduate work/degree,"$80,000-$99,999",no,married,4,1444,white
+154,female,49,postgraduate work/degree,"$30,000-$39,999",no,not married,5,2401,white
+157,female,44,high school graduate (12),"$30,000-$39,999",no,married,5,1936,white
+158,female,57,high school graduate (12),"$20,000-$29,999",no,not married,5,3249,white
+160,female,46,high school graduate (12),"$30,000-$39,999",no,married,4,2116,non-white
+162,female,58,less than high school graduate (0-11),"$15,000-$19,999",no,married,6,3364,white
+171,male,71,college graduate,"$15,000-$19,999",no,not married,5,5041,white
+176,female,28,high school graduate (12),"$30,000-$39,999",no,married,5,784,white
+177,male,46,college graduate,"$50,000-$59,999",no,married,5,2116,white
+178,male,20,high school graduate (12),"$10,000-$14,999",no,not married,5,400,non-white
+180,female,46,high school graduate (12),,no,married,5,2116,white
+181,female,76,high school graduate (12),"$10,000-$14,999",no,not married,5,5776,white
+182,female,30,college graduate,"$50,000-$59,999",no,married,5,900,white
+183,female,76,high school graduate (12),"$20,000-$29,999",no,not married,5,5776,white
+184,male,43,some college,"$20,000-$29,999",no,not married,5,1849,white
+185,male,43,some college,"$40,000-$49,999",no,not married,5,1849,white
+191,male,20,some college,"$10,000-$14,999",no,not married,3,400,white
+192,female,46,college graduate,"$50,000-$59,999",no,married,5,2116,white
+195,male,30,high school graduate (12),"$50,000-$59,999",no,married,5,900,white
+196,female,64,high school graduate (12),"$15,000-$19,999",no,not married,5,4096,white
+200,female,20,some college,"under $10,000",no,not married,4,400,white
+203,male,39,high school graduate (12),"$40,000-$49,999",no,married,4,1521,white
+204,female,81,college graduate,"$20,000-$29,999",no,not married,6,6561,white
+207,male,76,high school graduate (12),"$20,000-$29,999",no,married,6,5776,non-white
+208,female,85,high school graduate (12),"$40,000-$49,999",no,not married,5,7225,white
+210,male,68,high school graduate (12),"$15,000-$19,999",no,married,5,4624,white
+211,female,34,trade/technical/vocational training,"$40,000-$49,999",no,not married,2,1156,white
+212,male,36,some college,"$50,000-$59,999",no,married,2,1296,white
+214,male,32,less than high school graduate (0-11),"$20,000-$29,999",no,not married,4,1024,white
+215,male,55,high school graduate (12),"$50,000-$59,999",no,married,5,3025,white
+216,male,44,trade/technical/vocational training,"$80,000-$99,999",no,not married,2,1936,white
+218,female,46,trade/technical/vocational training,,no,married,2,2116,white
+219,male,74,high school graduate (12),"$20,000-$29,999",no,married,5,5476,white
+220,female,57,college graduate,"$30,000-$39,999",no,married,5,3249,non-white
+223,female,83,,,no,not married,5,6889,white
+225,male,34,some college,"$50,000-$59,999",no,married,4,1156,white
+226,female,31,some college,"under $10,000",no,not married,5,961,white
+228,female,32,college graduate,"$50,000-$59,999",no,married,5,1024,white
+231,female,19,some college,"$50,000-$59,999",no,not married,2,361,non-white
+233,female,18,some college,"$15,000-$19,999",no,not married,4,324,white
+234,female,46,high school graduate (12),"$20,000-$29,999",no,married,2,2116,white
+235,male,45,college graduate,"$50,000-$59,999",no,married,5,2025,white
+237,female,27,postgraduate work/degree,"$80,000-$99,999",no,not married,2,729,white
+238,male,31,postgraduate work/degree,"$100,000-$149,999",no,married,5,961,white
+239,female,55,college graduate,"$20,000-$29,999",no,married,2,3025,white
+242,male,49,some college,"$30,000-$39,999",no,not married,4,2401,white
+243,male,68,college graduate,"$50,000-$59,999",no,married,5,4624,white
+245,female,51,college graduate,"$100,000-$149,999",no,married,4,2601,white
+249,male,52,college graduate,"$100,000-$149,999",no,married,4,2704,white
+252,male,22,some college,"$30,000-$39,999",no,not married,4,484,white
+253,male,33,college graduate,"$50,000-$59,999",no,married,5,1089,non-white
+255,female,43,some college,"$15,000-$19,999",no,not married,3,1849,white
+256,male,32,high school graduate (12),"$40,000-$49,999",no,not married,5,1024,white
+258,male,40,college graduate,"$70,000-$79,999",no,married,5,1600,white
+260,male,47,some college,"$20,000-$29,999",no,married,5,2209,white
+261,female,59,high school graduate (12),"$30,000-$39,999",no,married,5,3481,non-white
+262,male,36,college graduate,"$30,000-$39,999",no,married,5,1296,non-white
+263,male,29,college graduate,"$80,000-$99,999",no,married,4,841,white
+265,male,29,some college,"$20,000-$29,999",no,not married,4,841,white
+266,female,34,postgraduate work/degree,"$20,000-$29,999",no,not married,5,1156,white
+267,female,40,high school graduate (12),"$30,000-$39,999",no,married,6,1600,white
+268,female,71,college graduate,"$60,000-$69,999",no,married,4,5041,white
+269,male,18,some college,,no,not married,6,324,non-white
+274,female,26,high school graduate (12),,no,not married,3,676,white
+278,female,77,trade/technical/vocational training,"$10,000-$14,999",no,not married,6,5929,non-white
+281,female,31,high school graduate (12),"$50,000-$59,999",no,married,5,961,white
+282,female,69,high school graduate (12),,no,not married,5,4761,white
+283,female,34,high school graduate (12),"$30,000-$39,999",no,married,5,1156,white
+284,male,22,some college,"$100,000-$149,999",no,not married,5,484,white
+285,female,37,some college,"$40,000-$49,999",no,married,4,1369,white
+286,male,42,high school graduate (12),"$60,000-$69,999",no,married,4,1764,white
+289,female,26,postgraduate work/degree,"$10,000-$14,999",no,not married,4,676,white
+292,female,38,high school graduate (12),"$50,000-$59,999",no,not married,5,1444,white
+295,male,77,high school graduate (12),"$10,000-$14,999",no,not married,5,5929,white
+296,female,33,college graduate,"$40,000-$49,999",no,married,5,1089,white
+297,male,32,postgraduate work/degree,"$40,000-$49,999",no,not married,5,1024,white
+300,female,45,high school graduate (12),"$10,000-$14,999",no,not married,5,2025,white
+301,female,69,high school graduate (12),"$10,000-$14,999",no,not married,5,4761,white
+303,male,50,some college,"$40,000-$49,999",no,married,4,2500,white
+305,female,55,some college,"$100,000-$149,999",no,married,5,3025,white
+309,male,65,less than high school graduate (0-11),"$30,000-$39,999",no,married,5,4225,white
+311,male,34,trade/technical/vocational training,"$50,000-$59,999",no,married,6,1156,white
+312,female,46,college graduate,"$30,000-$39,999",no,married,5,2116,white
+313,female,62,high school graduate (12),"under $10,000",no,not married,6,3844,white
+314,male,39,some college,"$40,000-$49,999",no,married,5,1521,white
+315,male,34,high school graduate (12),"$30,000-$39,999",no,married,3,1156,white
+316,male,30,college graduate,"$20,000-$29,999",no,not married,4,900,white
+317,female,33,college graduate,"$60,000-$69,999",no,married,4,1089,white
+319,male,33,some college,"$20,000-$29,999",no,married,4,1089,white
+322,female,68,trade/technical/vocational training,"$30,000-$39,999",no,married,6,4624,white
+323,female,36,high school graduate (12),"$20,000-$29,999",no,not married,6,1296,white
+326,male,77,high school graduate (12),"$10,000-$14,999",no,not married,2,5929,white
+329,male,60,college graduate,"$50,000-$59,999",no,married,5,3600,white
+330,female,81,less than high school graduate (0-11),,no,not married,6,6561,white
+332,male,63,high school graduate (12),"$40,000-$49,999",no,married,5,3969,white
+334,female,42,high school graduate (12),"$30,000-$39,999",no,married,5,1764,non-white
+336,female,35,high school graduate (12),"$15,000-$19,999",no,not married,3,1225,white
+337,male,69,high school graduate (12),"$15,000-$19,999",no,married,4,4761,white
+338,male,29,college graduate,"$20,000-$29,999",no,not married,3,841,white
+342,male,55,high school graduate (12),"$20,000-$29,999",no,married,5,3025,white
+343,female,32,postgraduate work/degree,"$30,000-$39,999",no,married,3,1024,white
+345,female,28,high school graduate (12),"$15,000-$19,999",no,married,2,784,white
+349,female,62,high school graduate (12),"$20,000-$29,999",no,not married,5,3844,white
+350,female,39,college graduate,"$30,000-$39,999",no,not married,4,1521,white
+352,female,30,postgraduate work/degree,"$30,000-$39,999",no,married,5,900,white
+353,male,63,college graduate,"$30,000-$39,999",no,not married,6,3969,white
+354,female,52,some college,"$20,000-$29,999",no,married,5,2704,white
+359,female,59,high school graduate (12),"under $10,000",no,not married,5,3481,white
+361,male,33,high school graduate (12),"$10,000-$14,999",no,married,3,1089,white
+363,female,75,less than high school graduate (0-11),"under $10,000",no,married,4,5625,white
+365,male,39,some college,"$40,000-$49,999",no,married,4,1521,white
+367,male,52,postgraduate work/degree,"$80,000-$99,999",no,not married,4,2704,white
+368,female,59,less than high school graduate (0-11),"under $10,000",no,not married,5,3481,white
+371,male,29,high school graduate (12),"$40,000-$49,999",no,married,4,841,white
+372,male,60,some college,"$20,000-$29,999",no,married,5,3600,white
+373,female,28,high school graduate (12),"$20,000-$29,999",no,not married,5,784,white
+375,female,61,high school graduate (12),"$15,000-$19,999",no,married,4,3721,white
+376,female,41,college graduate,"$60,000-$69,999",no,married,6,1681,white
+378,male,65,postgraduate work/degree,"$30,000-$39,999",no,married,5,4225,white
+380,female,39,some college,"$15,000-$19,999",no,married,2,1521,white
+383,male,75,less than high school graduate (0-11),"under $10,000",no,not married,5,5625,white
+386,male,58,high school graduate (12),"$15,000-$19,999",no,married,5,3364,white
+388,male,33,college graduate,"$30,000-$39,999",no,married,5,1089,non-white
+392,female,27,college graduate,"$40,000-$49,999",no,married,5,729,white
+394,male,32,college graduate,"$30,000-$39,999",no,married,4,1024,non-white
+397,female,70,high school graduate (12),,no,married,5,4900,white
+398,female,55,college graduate,"$50,000-$59,999",no,not married,6,3025,white
+399,female,33,college graduate,"$50,000-$59,999",no,married,5,1089,white
+402,male,40,some college,"$40,000-$49,999",no,married,4,1600,white
+403,female,46,high school graduate (12),"$20,000-$29,999",no,not married,4,2116,white
+407,male,32,postgraduate work/degree,"$30,000-$39,999",no,married,6,1024,white
+409,male,49,some college,"$50,000-$59,999",no,married,5,2401,white
+410,female,66,college graduate,,no,not married,5,4356,white
+411,female,54,high school graduate (12),"$20,000-$29,999",no,not married,5,2916,white
+412,male,60,some college,"$50,000-$59,999",no,not married,3,3600,non-white
+416,female,21,high school graduate (12),"$20,000-$29,999",no,married,6,441,white
+419,female,48,some college,"$80,000-$99,999",no,married,5,2304,white
+421,male,72,some college,"$40,000-$49,999",no,married,5,5184,white
+423,male,50,college graduate,"$70,000-$79,999",no,married,5,2500,white
+424,female,40,some college,"under $10,000",no,not married,5,1600,non-white
+426,female,25,some college,"$20,000-$29,999",no,not married,4,625,white
+427,male,73,college graduate,"$40,000-$49,999",no,married,5,5329,white
+428,male,70,postgraduate work/degree,"$20,000-$29,999",no,married,5,4900,white
+429,male,83,postgraduate work/degree,"$20,000-$29,999",no,not married,2,6889,white
+430,male,28,college graduate,"$30,000-$39,999",no,married,3,784,white
+432,female,75,less than high school graduate (0-11),"$10,000-$14,999",no,not married,5,5625,white
+434,male,42,postgraduate work/degree,"$40,000-$49,999",no,married,5,1764,white
+435,female,39,college graduate,"$20,000-$29,999",no,not married,5,1521,non-white
+440,female,40,college graduate,"$15,000-$19,999",no,married,5,1600,non-white
+441,female,69,some college,"$30,000-$39,999",no,married,4,4761,white
+442,male,66,some college,"$40,000-$49,999",no,not married,1,4356,white
+445,female,85,some college,"$10,000-$14,999",no,not married,5,7225,white
+447,female,60,high school graduate (12),,no,married,4,3600,white
+448,female,57,some college,"$15,000-$19,999",no,not married,5,3249,white
+450,female,59,high school graduate (12),"$80,000-$99,999",no,married,5,3481,white
+451,female,19,some college,"$20,000-$29,999",no,not married,6,361,non-white
+452,female,23,trade/technical/vocational training,"$20,000-$29,999",no,married,3,529,non-white
+453,female,43,high school graduate (12),"$30,000-$39,999",no,married,2,1849,white
+454,female,34,college graduate,"$20,000-$29,999",no,married,4,1156,non-white
+455,male,79,college graduate,"$60,000-$69,999",no,married,4,6241,white
+456,male,83,,"under $10,000",no,not married,5,6889,white
+457,female,89,less than high school graduate (0-11),"under $10,000",no,not married,3,7921,white
+458,female,29,some college,"under $10,000",no,not married,4,841,white
+462,male,20,some college,,no,not married,5,400,white
+465,male,33,some college,"$30,000-$39,999",no,married,5,1089,white
+469,female,45,some college,"$50,000-$59,999",no,married,5,2025,white
+470,male,29,some college,"$20,000-$29,999",no,not married,4,841,white
+471,male,34,college graduate,"$50,000-$59,999",no,not married,2,1156,white
+472,male,68,high school graduate (12),"$15,000-$19,999",no,married,5,4624,white
+473,male,41,postgraduate work/degree,"$100,000-$149,999",no,married,5,1681,white
+475,female,80,trade/technical/vocational training,"under $10,000",no,not married,6,6400,white
+478,female,67,high school graduate (12),"$15,000-$19,999",no,not married,5,4489,white
+482,female,70,high school graduate (12),"$20,000-$29,999",no,married,5,4900,white
+483,female,27,less than high school graduate (0-11),"under $10,000",no,not married,5,729,white
+485,female,29,some college,"$30,000-$39,999",no,married,3,841,white
+487,male,19,some college,"under $10,000",no,not married,5,361,white
+488,female,56,high school graduate (12),"$30,000-$39,999",no,not married,4,3136,white
+491,female,47,high school graduate (12),"under $10,000",no,married,2,2209,white
+492,female,74,high school graduate (12),"$10,000-$14,999",no,not married,5,5476,white
+493,female,32,college graduate,"under $10,000",no,married,5,1024,non-white
+494,female,26,high school graduate (12),"$20,000-$29,999",no,married,3,676,white
+495,female,56,trade/technical/vocational training,"$50,000-$59,999",no,married,6,3136,white
+496,female,40,less than high school graduate (0-11),"$30,000-$39,999",no,married,5,1600,non-white
+497,female,83,college graduate,"$15,000-$19,999",no,not married,6,6889,white
+498,male,40,trade/technical/vocational training,"$40,000-$49,999",no,married,3,1600,white
+502,female,75,high school graduate (12),"$20,000-$29,999",no,not married,6,5625,white
+503,female,66,less than high school graduate (0-11),"$15,000-$19,999",no,married,4,4356,white
+504,male,73,high school graduate (12),"$30,000-$39,999",no,not married,6,5329,white
+505,male,65,some college,"$30,000-$39,999",no,married,6,4225,white
+506,male,39,college graduate,"$60,000-$69,999",no,married,3,1521,white
+508,male,45,some college,"$20,000-$29,999",no,married,4,2025,white
+509,female,38,postgraduate work/degree,"$80,000-$99,999",no,married,1,1444,non-white
+511,male,55,college graduate,"$10,000-$14,999",no,not married,3,3025,white
+514,male,48,high school graduate (12),"$20,000-$29,999",no,married,2,2304,white
+517,female,54,high school graduate (12),"$30,000-$39,999",no,married,3,2916,white
+520,female,38,less than high school graduate (0-11),"$15,000-$19,999",no,not married,5,1444,white
+521,female,38,some college,"$20,000-$29,999",no,not married,6,1444,non-white
+523,female,58,college graduate,"$40,000-$49,999",no,married,4,3364,white
+528,female,67,high school graduate (12),"$15,000-$19,999",no,married,5,4489,white
+531,male,74,high school graduate (12),"$70,000-$79,999",no,married,2,5476,white
+534,female,30,postgraduate work/degree,"$150,000 or over",no,married,3,900,white
+537,female,70,trade/technical/vocational training,,no,married,6,4900,white
+538,female,58,high school graduate (12),"$30,000-$39,999",no,married,3,3364,white
+541,male,66,less than high school graduate (0-11),"$10,000-$14,999",no,married,4,4356,white
+542,male,35,postgraduate work/degree,"$60,000-$69,999",no,married,5,1225,non-white
+545,female,82,high school graduate (12),"under $10,000",no,not married,4,6724,white
+546,male,83,less than high school graduate (0-11),"under $10,000",no,married,5,6889,white
+547,male,79,high school graduate (12),"$15,000-$19,999",no,not married,5,6241,white
+549,male,57,some college,"$20,000-$29,999",no,married,5,3249,white
+554,female,71,college graduate,"under $10,000",no,not married,6,5041,white
+555,female,50,some college,"$20,000-$29,999",no,not married,5,2500,white
+557,female,45,college graduate,"$40,000-$49,999",no,married,6,2025,white
+558,female,44,trade/technical/vocational training,"$60,000-$69,999",no,married,4,1936,white
+562,female,62,some college,"$20,000-$29,999",no,not married,4,3844,white
+565,female,65,college graduate,"$10,000-$14,999",no,married,4,4225,non-white
+568,male,51,college graduate,"$50,000-$59,999",no,married,3,2601,white
+570,female,43,postgraduate work/degree,"$80,000-$99,999",no,married,5,1849,non-white
+571,female,80,less than high school graduate (0-11),"$20,000-$29,999",no,not married,5,6400,white
+572,male,68,some college,"$10,000-$14,999",no,married,5,4624,white
+573,female,75,some college,"$10,000-$14,999",no,not married,6,5625,white
+574,male,83,college graduate,"$40,000-$49,999",no,not married,5,6889,white
+576,female,49,some college,"$20,000-$29,999",no,not married,6,2401,white
+577,male,35,high school graduate (12),"$10,000-$14,999",no,not married,3,1225,non-white
+578,female,49,postgraduate work/degree,"$100,000-$149,999",no,not married,3,2401,white
+579,female,30,high school graduate (12),"$20,000-$29,999",no,married,6,900,white
+580,male,55,postgraduate work/degree,"$30,000-$39,999",no,married,6,3025,white
+582,female,47,college graduate,"$15,000-$19,999",no,not married,5,2209,white
+584,male,58,college graduate,"$40,000-$49,999",no,married,2,3364,white
+585,male,72,high school graduate (12),"under $10,000",no,married,6,5184,white
+587,male,52,high school graduate (12),"$30,000-$39,999",no,married,5,2704,white
+589,male,60,high school graduate (12),"$20,000-$29,999",no,married,4,3600,white
+590,male,40,college graduate,"$50,000-$59,999",no,married,5,1600,white
+591,female,83,some college,"$20,000-$29,999",no,not married,5,6889,white
+592,male,18,high school graduate (12),"$150,000 or over",no,not married,5,324,white
+594,female,33,college graduate,"$50,000-$59,999",no,married,2,1089,white
+595,female,59,high school graduate (12),"$20,000-$29,999",no,not married,5,3481,white
+598,female,37,some college,"$50,000-$59,999",no,married,4,1369,white
+599,female,46,college graduate,"$50,000-$59,999",no,married,4,2116,white
+602,female,,high school graduate (12),"$40,000-$49,999",no,married,4,,white
+603,female,32,college graduate,"$60,000-$69,999",no,married,4,1024,non-white
+605,male,33,postgraduate work/degree,"$20,000-$29,999",no,married,6,1089,white
+606,female,45,some college,"$40,000-$49,999",no,married,5,2025,white
+607,male,65,some college,"$80,000-$99,999",no,married,4,4225,white
+608,female,70,high school graduate (12),,no,married,5,4900,white
+609,male,50,some college,"$70,000-$79,999",no,not married,6,2500,white
+610,female,83,less than high school graduate (0-11),"under $10,000",no,not married,5,6889,white
+615,male,29,postgraduate work/degree,"$10,000-$14,999",no,not married,6,841,white
+617,female,25,postgraduate work/degree,"$10,000-$14,999",no,married,5,625,white
+618,male,49,some college,"$20,000-$29,999",no,married,6,2401,white
+619,male,45,college graduate,"$150,000 or over",no,married,5,2025,white
+623,female,29,high school graduate (12),"$20,000-$29,999",no,married,5,841,non-white
+625,male,67,high school graduate (12),"$10,000-$14,999",no,married,4,4489,white
+627,female,31,postgraduate work/degree,"$70,000-$79,999",no,married,5,961,white
+630,male,59,high school graduate (12),"$15,000-$19,999",no,married,5,3481,white
+631,male,63,less than high school graduate (0-11),"$40,000-$49,999",no,married,6,3969,non-white
+633,female,30,some college,"$30,000-$39,999",no,married,5,900,white
+634,female,,some college,"$40,000-$49,999",no,married,5,,white
+636,male,21,college graduate,"$30,000-$39,999",no,not married,4,441,white
+637,female,51,high school graduate (12),"$30,000-$39,999",no,married,5,2601,white
+638,female,46,some college,"$15,000-$19,999",no,married,4,2116,white
+641,male,26,some college,"$40,000-$49,999",no,married,5,676,white
+645,female,34,college graduate,"$50,000-$59,999",no,married,4,1156,white
+647,male,22,some college,"$50,000-$59,999",no,not married,5,484,white
+649,male,58,some college,"$20,000-$29,999",no,married,5,3364,white
+652,female,38,some college,"$50,000-$59,999",no,married,5,1444,white
+657,male,62,postgraduate work/degree,"$20,000-$29,999",no,married,6,3844,white
+659,female,47,college graduate,"$150,000 or over",no,married,5,2209,white
+667,female,43,college graduate,"$40,000-$49,999",no,not married,5,1849,non-white
+669,male,47,college graduate,"$50,000-$59,999",no,married,3,2209,non-white
+671,female,38,college graduate,"$40,000-$49,999",no,married,5,1444,non-white
+674,female,78,some college,"$20,000-$29,999",no,not married,6,6084,white
+678,female,55,high school graduate (12),"$50,000-$59,999",no,married,5,3025,white
+680,female,64,high school graduate (12),"$20,000-$29,999",no,not married,5,4096,white
+681,male,60,high school graduate (12),"$40,000-$49,999",no,married,5,3600,white
+682,male,47,some college,"$50,000-$59,999",no,married,5,2209,white
+684,female,26,less than high school graduate (0-11),"$10,000-$14,999",no,married,2,676,white
+688,female,35,high school graduate (12),"$40,000-$49,999",no,married,5,1225,white
+689,male,34,high school graduate (12),"$15,000-$19,999",no,married,6,1156,white
+691,female,33,high school graduate (12),"$30,000-$39,999",no,married,5,1089,white
+692,female,68,high school graduate (12),"$20,000-$29,999",no,married,5,4624,white
+693,female,25,high school graduate (12),"$20,000-$29,999",no,not married,2,625,white
+696,male,32,some college,"$15,000-$19,999",no,not married,5,1024,white
+697,male,36,high school graduate (12),"$60,000-$69,999",no,married,5,1296,white
+698,female,82,less than high school graduate (0-11),"$10,000-$14,999",no,not married,6,6724,white
+699,female,71,college graduate,"$20,000-$29,999",no,not married,5,5041,white
+701,female,25,college graduate,,no,married,4,625,white
+702,female,25,college graduate,"$20,000-$29,999",no,not married,4,625,non-white
+704,male,35,high school graduate (12),"$10,000-$14,999",no,married,4,1225,non-white
+705,female,39,some college,"$30,000-$39,999",no,married,6,1521,white
+707,male,65,less than high school graduate (0-11),"$10,000-$14,999",no,not married,5,4225,white
+708,female,21,high school graduate (12),"$20,000-$29,999",no,married,4,441,white
+709,female,89,less than high school graduate (0-11),"$15,000-$19,999",no,not married,5,7921,white
+710,male,63,some college,"$40,000-$49,999",no,married,5,3969,white
+711,male,71,college graduate,"$30,000-$39,999",no,married,5,5041,white
+712,male,56,some college,"$40,000-$49,999",no,married,6,3136,white
+713,female,35,postgraduate work/degree,"$70,000-$79,999",no,married,5,1225,white
+720,female,30,high school graduate (12),"$30,000-$39,999",no,married,5,900,white
+721,male,27,college graduate,"$40,000-$49,999",no,not married,5,729,white
+723,female,35,high school graduate (12),"$20,000-$29,999",no,married,5,1225,non-white
+724,female,43,college graduate,"$50,000-$59,999",no,married,4,1849,non-white
+728,female,25,college graduate,"$30,000-$39,999",no,married,5,625,white
+732,female,50,postgraduate work/degree,"$80,000-$99,999",no,not married,6,2500,non-white
+734,male,49,postgraduate work/degree,"$50,000-$59,999",no,married,5,2401,white
+735,male,40,some college,"$70,000-$79,999",no,married,4,1600,non-white
+737,male,53,postgraduate work/degree,"$150,000 or over",no,married,5,2809,non-white
+738,female,50,high school graduate (12),"$30,000-$39,999",no,married,5,2500,white
+741,female,39,college graduate,"$20,000-$29,999",no,not married,2,1521,white
+742,male,50,high school graduate (12),"$20,000-$29,999",no,not married,3,2500,non-white
+745,female,69,postgraduate work/degree,"$40,000-$49,999",no,married,5,4761,white
+747,female,82,high school graduate (12),"under $10,000",no,not married,5,6724,non-white
+748,female,54,college graduate,"$80,000-$99,999",no,married,5,2916,white
+750,female,34,high school graduate (12),"under $10,000",no,married,4,1156,white
+754,female,54,high school graduate (12),"$50,000-$59,999",no,married,3,2916,white
+755,female,60,trade/technical/vocational training,"$30,000-$39,999",no,not married,6,3600,non-white
+757,female,19,some college,,no,not married,4,361,white
+759,male,30,high school graduate (12),"$50,000-$59,999",no,married,5,900,white
+760,male,43,postgraduate work/degree,"$80,000-$99,999",no,married,5,1849,white
+761,female,44,college graduate,"$20,000-$29,999",no,married,4,1936,white
+763,female,59,high school graduate (12),"$10,000-$14,999",no,not married,6,3481,white
+764,female,28,college graduate,"$15,000-$19,999",no,not married,4,784,white
+766,male,69,less than high school graduate (0-11),,no,not married,2,4761,white
+767,female,86,some college,"$15,000-$19,999",no,not married,6,7396,white
+768,male,29,high school graduate (12),"$30,000-$39,999",no,married,6,841,white
+769,female,46,some college,"$30,000-$39,999",no,not married,2,2116,white
+771,male,60,college graduate,"$20,000-$29,999",no,not married,5,3600,white
+772,male,72,high school graduate (12),"$20,000-$29,999",no,not married,5,5184,white
+773,female,73,some college,"$10,000-$14,999",no,not married,3,5329,white
+774,female,44,some college,"$70,000-$79,999",no,married,5,1936,white
+776,female,67,some college,"$10,000-$14,999",no,not married,5,4489,non-white
+777,male,42,high school graduate (12),"$10,000-$14,999",no,married,5,1764,non-white
+778,female,34,college graduate,"$50,000-$59,999",no,not married,2,1156,white
+783,male,62,college graduate,"$30,000-$39,999",no,not married,5,3844,white
+784,female,40,high school graduate (12),"$60,000-$69,999",no,married,1,1600,white
+786,female,60,some college,,no,married,5,3600,non-white
+787,male,42,high school graduate (12),"$15,000-$19,999",no,married,3,1764,white
+790,male,51,some college,"$30,000-$39,999",no,not married,4,2601,non-white
+791,female,73,less than high school graduate (0-11),"$30,000-$39,999",no,married,5,5329,white
+792,female,26,college graduate,"$50,000-$59,999",no,married,5,676,white
+793,female,29,college graduate,"$20,000-$29,999",no,not married,4,841,non-white
+794,female,43,college graduate,"$60,000-$69,999",no,married,5,1849,white
+795,male,73,high school graduate (12),"$20,000-$29,999",no,married,6,5329,white
+797,male,79,college graduate,"$10,000-$14,999",no,not married,6,6241,white
+798,female,59,less than high school graduate (0-11),"under $10,000",no,married,5,3481,white
+800,female,30,postgraduate work/degree,"$50,000-$59,999",no,married,5,900,white
+802,female,58,less than high school graduate (0-11),"$15,000-$19,999",no,married,6,3364,non-white
+803,male,53,some college,"$30,000-$39,999",no,married,3,2809,white
+804,female,76,postgraduate work/degree,"$10,000-$14,999",no,not married,5,5776,white
+807,male,52,high school graduate (12),"$70,000-$79,999",no,married,5,2704,white
+808,male,48,some college,"$40,000-$49,999",no,married,5,2304,white
+809,male,49,high school graduate (12),"$30,000-$39,999",no,married,6,2401,white
+811,male,31,some college,"$30,000-$39,999",no,married,5,961,non-white
+812,female,26,trade/technical/vocational training,"$60,000-$69,999",no,married,4,676,white
+813,female,50,postgraduate work/degree,"$20,000-$29,999",no,not married,5,2500,white
+814,male,34,some college,"$20,000-$29,999",no,not married,4,1156,white
+815,male,19,some college,"$70,000-$79,999",no,not married,5,361,white
+817,male,88,some college,"$10,000-$14,999",no,not married,5,7744,white
+818,female,32,high school graduate (12),"$60,000-$69,999",no,married,4,1024,white
+820,male,20,high school graduate (12),"under $10,000",no,not married,6,400,non-white
+821,female,64,some college,"$30,000-$39,999",no,married,5,4096,non-white
+822,female,37,some college,"$20,000-$29,999",no,not married,3,1369,non-white
+824,female,99,high school graduate (12),"$30,000-$39,999",no,married,6,9801,white
+826,male,59,trade/technical/vocational training,"$50,000-$59,999",no,married,5,3481,white
+827,male,46,some college,"$50,000-$59,999",no,not married,5,2116,white
+828,female,55,some college,"$30,000-$39,999",no,married,5,3025,white
+830,female,44,some college,"$20,000-$29,999",no,married,6,1936,white
+831,male,35,college graduate,"$40,000-$49,999",no,married,4,1225,white
+832,female,57,some college,"under $10,000",no,married,5,3249,non-white
+834,male,39,trade/technical/vocational training,"$40,000-$49,999",no,married,3,1521,white
+837,male,33,high school graduate (12),"$30,000-$39,999",no,married,3,1089,white
+838,male,62,high school graduate (12),"$60,000-$69,999",no,married,4,3844,white
+839,male,21,some college,"$40,000-$49,999",no,not married,4,441,white
+840,female,45,postgraduate work/degree,"$100,000-$149,999",no,married,5,2025,white
+842,female,28,college graduate,"$20,000-$29,999",no,not married,5,784,non-white
+843,female,35,some college,"$60,000-$69,999",no,married,2,1225,white
+847,female,27,college graduate,"$10,000-$14,999",no,not married,2,729,non-white
+849,male,28,college graduate,"$100,000-$149,999",no,not married,3,784,white
+851,male,42,high school graduate (12),"$20,000-$29,999",no,not married,4,1764,non-white
+853,female,67,college graduate,"$50,000-$59,999",no,married,5,4489,white
+855,female,34,less than high school graduate (0-11),"$30,000-$39,999",no,not married,4,1156,white
+856,female,31,high school graduate (12),"$15,000-$19,999",no,not married,2,961,non-white
+858,female,79,high school graduate (12),"$10,000-$14,999",no,not married,5,6241,white
+859,male,43,college graduate,"$70,000-$79,999",no,married,3,1849,white
+860,male,53,some college,"$40,000-$49,999",no,married,5,2809,white
+861,female,71,high school graduate (12),"under $10,000",no,married,6,5041,white
+863,female,57,high school graduate (12),,no,married,5,3249,white
+866,male,50,college graduate,"$60,000-$69,999",no,married,4,2500,white
+867,male,52,college graduate,"$10,000-$14,999",no,not married,2,2704,white
+869,male,77,college graduate,"under $10,000",no,not married,6,5929,white
+870,female,53,college graduate,"$100,000-$149,999",no,married,5,2809,white
+873,female,78,high school graduate (12),"$20,000-$29,999",no,not married,5,6084,white
+876,male,29,postgraduate work/degree,"$20,000-$29,999",no,not married,5,841,white
+877,male,39,high school graduate (12),"$30,000-$39,999",no,married,4,1521,non-white
+878,female,43,high school graduate (12),"$40,000-$49,999",no,married,5,1849,white
+880,female,62,high school graduate (12),"$20,000-$29,999",no,not married,5,3844,white
+884,female,36,high school graduate (12),"$20,000-$29,999",no,married,5,1296,white
+892,male,43,some college,,no,not married,4,1849,white
+893,female,49,high school graduate (12),"$15,000-$19,999",no,not married,2,2401,white
+895,male,66,high school graduate (12),"$15,000-$19,999",no,married,6,4356,white
+897,female,65,some college,"$70,000-$79,999",no,married,5,4225,white
+898,female,70,postgraduate work/degree,"$20,000-$29,999",no,not married,6,4900,white
+899,male,74,high school graduate (12),"$80,000-$99,999",no,married,3,5476,non-white
+900,male,18,some college,"$30,000-$39,999",no,not married,5,324,white
+906,female,44,high school graduate (12),"$20,000-$29,999",no,not married,5,1936,white
+907,female,75,high school graduate (12),"under $10,000",no,not married,5,5625,white
+909,female,44,some college,"$40,000-$49,999",no,not married,5,1936,white
+910,female,44,some college,"$15,000-$19,999",no,not married,5,1936,white
+911,female,45,high school graduate (12),"$30,000-$39,999",no,married,5,2025,white
+912,female,59,some college,"$80,000-$99,999",no,married,6,3481,white
+916,male,34,postgraduate work/degree,"$60,000-$69,999",no,married,2,1156,white
+918,female,26,high school graduate (12),"$20,000-$29,999",no,married,4,676,white
+919,male,34,some college,"$40,000-$49,999",no,married,4,1156,white
+922,female,33,some college,"$30,000-$39,999",no,married,6,1089,white
+924,female,19,some college,"$15,000-$19,999",no,not married,5,361,non-white
+925,male,47,college graduate,"$40,000-$49,999",no,married,3,2209,white
+926,male,70,some college,"$20,000-$29,999",no,not married,4,4900,non-white
+929,male,25,college graduate,"$40,000-$49,999",no,not married,2,625,white
+930,female,21,high school graduate (12),"$20,000-$29,999",no,not married,6,441,white
+932,female,69,high school graduate (12),"$15,000-$19,999",no,married,5,4761,white
+933,female,46,college graduate,"$20,000-$29,999",no,not married,6,2116,white
+938,male,20,some college,"$40,000-$49,999",no,not married,5,400,white
+939,male,70,high school graduate (12),"$10,000-$14,999",no,married,3,4900,white
+941,female,65,trade/technical/vocational training,"$20,000-$29,999",no,married,5,4225,white
+944,female,44,postgraduate work/degree,"$50,000-$59,999",no,not married,5,1936,white
+945,male,85,some college,"$15,000-$19,999",no,not married,3,7225,white
+946,male,30,high school graduate (12),"$40,000-$49,999",no,married,4,900,white
+947,female,58,high school graduate (12),"$20,000-$29,999",no,married,5,3364,white
+948,female,68,some college,"$15,000-$19,999",no,not married,5,4624,white
+949,female,31,some college,"$60,000-$69,999",no,married,5,961,white
+951,female,34,college graduate,"$100,000-$149,999",no,married,4,1156,white
+952,male,71,high school graduate (12),"$15,000-$19,999",no,not married,5,5041,white
+953,female,30,college graduate,"$40,000-$49,999",no,not married,5,900,white
+954,female,76,high school graduate (12),"$15,000-$19,999",no,not married,5,5776,white
+956,female,44,college graduate,"$50,000-$59,999",no,married,5,1936,white
+957,female,48,high school graduate (12),"$30,000-$39,999",no,married,4,2304,white
+958,female,49,high school graduate (12),"$30,000-$39,999",no,married,4,2401,white
+959,male,66,high school graduate (12),"$40,000-$49,999",no,married,1,4356,white
+961,male,79,less than high school graduate (0-11),,no,married,5,6241,white
+964,female,75,college graduate,"$40,000-$49,999",no,married,4,5625,white
+966,male,54,some college,"$40,000-$49,999",no,married,4,2916,white
+967,male,71,high school graduate (12),"$30,000-$39,999",no,married,5,5041,white
+969,female,39,some college,"$40,000-$49,999",no,married,2,1521,white
+970,female,31,trade/technical/vocational training,"$20,000-$29,999",no,married,5,961,white
+972,male,45,postgraduate work/degree,"$40,000-$49,999",no,married,2,2025,white
+974,female,30,some college,"$40,000-$49,999",no,married,5,900,white
+975,female,36,college graduate,"$30,000-$39,999",no,married,3,1296,white
+976,female,44,postgraduate work/degree,"$30,000-$39,999",no,not married,4,1936,white
+977,female,75,high school graduate (12),"$20,000-$29,999",no,married,5,5625,white
+980,female,47,postgraduate work/degree,"$20,000-$29,999",no,not married,4,2209,white
+981,female,27,some college,"$30,000-$39,999",no,married,5,729,white
+987,female,75,some college,"$10,000-$14,999",no,not married,6,5625,white
+990,female,65,high school graduate (12),"$20,000-$29,999",no,not married,5,4225,white
+991,male,55,postgraduate work/degree,"$60,000-$69,999",no,married,4,3025,white
+994,female,25,trade/technical/vocational training,"$20,000-$29,999",no,not married,5,625,white
+997,male,73,less than high school graduate (0-11),"under $10,000",no,married,3,5329,white
+998,male,31,high school graduate (12),"$20,000-$29,999",no,not married,4,961,white
+999,female,82,some college,"$10,000-$14,999",no,married,6,6724,white
+1001,male,61,college graduate,"$50,000-$59,999",no,married,4,3721,white
+1002,male,69,postgraduate work/degree,,no,married,5,4761,white
+37,male,38,college graduate,"$30,000-$39,999",yes,married,5,1444,white
+89,female,27,high school graduate (12),"$20,000-$29,999",yes,married,4,729,non-white
+90,female,38,high school graduate (12),"$20,000-$29,999",yes,married,5,1444,white
+96,female,35,some college,"$30,000-$39,999",yes,not married,5,1225,non-white
+97,male,33,postgraduate work/degree,"$70,000-$79,999",yes,married,6,1089,white
+106,female,34,trade/technical/vocational training,"$30,000-$39,999",yes,married,5,1156,white
+146,male,34,high school graduate (12),"$30,000-$39,999",yes,married,5,1156,white
+153,male,44,high school graduate (12),"$30,000-$39,999",yes,married,6,1936,non-white
+156,female,37,college graduate,"$40,000-$49,999",yes,married,5,1369,white
+159,male,45,high school graduate (12),"$15,000-$19,999",yes,married,5,2025,non-white
+163,male,29,high school graduate (12),"$20,000-$29,999",yes,married,6,841,non-white
+169,male,53,some college,"$30,000-$39,999",yes,married,4,2809,non-white
+173,female,40,college graduate,"$100,000-$149,999",yes,married,5,1600,white
+179,female,35,trade/technical/vocational training,"$80,000-$99,999",yes,married,5,1225,white
+199,female,36,college graduate,"$20,000-$29,999",yes,not married,6,1296,white
+202,male,45,high school graduate (12),"$40,000-$49,999",yes,married,5,2025,white
+229,female,43,postgraduate work/degree,"$100,000-$149,999",yes,married,4,1849,white
+241,male,40,postgraduate work/degree,"$60,000-$69,999",yes,married,5,1600,white
+251,male,41,college graduate,"$30,000-$39,999",yes,married,5,1681,white
+259,female,32,high school graduate (12),"$40,000-$49,999",yes,married,5,1024,white
+273,male,34,high school graduate (12),"$20,000-$29,999",yes,married,5,1156,non-white
+275,female,40,college graduate,"$40,000-$49,999",yes,married,5,1600,non-white
+304,male,38,high school graduate (12),"$30,000-$39,999",yes,married,5,1444,non-white
+333,female,42,postgraduate work/degree,"$80,000-$99,999",yes,married,5,1764,non-white
+374,female,25,high school graduate (12),"$60,000-$69,999",yes,married,2,625,non-white
+385,male,35,college graduate,"$40,000-$49,999",yes,married,5,1225,white
+389,female,60,high school graduate (12),"$10,000-$14,999",yes,not married,5,3600,white
+395,female,24,some college,"$60,000-$69,999",yes,not married,5,576,white
+401,female,27,some college,"$40,000-$49,999",yes,not married,5,729,non-white
+406,female,40,some college,"$40,000-$49,999",yes,married,6,1600,white
+431,female,40,high school graduate (12),"$30,000-$39,999",yes,married,5,1600,white
+433,male,33,postgraduate work/degree,"$60,000-$69,999",yes,married,3,1089,white
+459,male,42,high school graduate (12),"$50,000-$59,999",yes,married,5,1764,non-white
+460,female,25,postgraduate work/degree,"$40,000-$49,999",yes,not married,5,625,non-white
+464,female,25,some college,"$20,000-$29,999",yes,married,6,625,white
+467,male,24,trade/technical/vocational training,"under $10,000",yes,not married,5,576,non-white
+468,female,48,high school graduate (12),"$15,000-$19,999",yes,not married,5,2304,non-white
+474,male,37,some college,"$60,000-$69,999",yes,married,5,1369,white
+476,female,38,high school graduate (12),"$30,000-$39,999",yes,married,2,1444,white
+479,female,34,college graduate,"$40,000-$49,999",yes,married,5,1156,white
+486,male,41,college graduate,"$80,000-$99,999",yes,married,5,1681,white
+490,female,38,high school graduate (12),"$40,000-$49,999",yes,married,5,1444,white
+499,male,41,some college,"$30,000-$39,999",yes,married,6,1681,white
+507,female,35,postgraduate work/degree,"$30,000-$39,999",yes,not married,5,1225,white
+535,female,36,some college,"$20,000-$29,999",yes,married,5,1296,non-white
+539,female,19,some college,"$60,000-$69,999",yes,not married,5,361,white
+544,male,50,some college,"$40,000-$49,999",yes,married,5,2500,non-white
+551,male,41,high school graduate (12),,yes,married,5,1681,white
+560,female,57,college graduate,"$50,000-$59,999",yes,married,5,3249,white
+611,male,33,college graduate,"$30,000-$39,999",yes,married,5,1089,white
+614,female,35,some college,"$20,000-$29,999",yes,married,5,1225,white
+616,female,36,college graduate,"$40,000-$49,999",yes,married,5,1296,white
+640,male,40,high school graduate (12),"$80,000-$99,999",yes,married,3,1600,white
+646,female,40,high school graduate (12),"$40,000-$49,999",yes,married,3,1600,white
+651,male,46,college graduate,,yes,married,2,2116,white
+666,female,29,high school graduate (12),"$15,000-$19,999",yes,not married,5,841,white
+668,female,30,some college,"$50,000-$59,999",yes,not married,5,900,white
+673,male,43,less than high school graduate (0-11),"$20,000-$29,999",yes,married,5,1849,white
+687,female,23,high school graduate (12),"$20,000-$29,999",yes,not married,6,529,non-white
+715,female,39,college graduate,"$100,000-$149,999",yes,married,5,1521,white
+740,male,54,postgraduate work/degree,"$100,000-$149,999",yes,married,6,2916,white
+751,male,47,some college,"$20,000-$29,999",yes,not married,5,2209,white
+756,male,35,some college,"$20,000-$29,999",yes,not married,4,1225,non-white
+779,female,42,high school graduate (12),"$50,000-$59,999",yes,married,4,1764,non-white
+781,male,39,high school graduate (12),,yes,married,5,1521,non-white
+799,female,32,some college,"$15,000-$19,999",yes,not married,5,1024,non-white
+805,female,32,high school graduate (12),"$30,000-$39,999",yes,married,4,1024,white
+810,female,31,some college,"$60,000-$69,999",yes,married,5,961,white
+850,male,39,postgraduate work/degree,"$150,000 or over",yes,married,4,1521,white
+871,female,39,postgraduate work/degree,"$80,000-$99,999",yes,married,5,1521,white
+872,male,41,less than high school graduate (0-11),"$40,000-$49,999",yes,married,2,1681,non-white
+879,male,47,high school graduate (12),"$100,000-$149,999",yes,married,5,2209,white
+886,male,44,some college,"$50,000-$59,999",yes,married,5,1936,white
+904,female,32,college graduate,"$30,000-$39,999",yes,married,3,1024,non-white
+915,female,40,high school graduate (12),"$40,000-$49,999",yes,married,5,1600,non-white
+923,male,31,high school graduate (12),"$20,000-$29,999",yes,not married,6,961,white
+982,female,36,high school graduate (12),"$30,000-$39,999",yes,married,5,1296,white
+986,female,41,some college,,yes,married,5,1681,white
+992,male,38,college graduate,"$60,000-$69,999",yes,not married,4,1444,white
+995,male,37,some college,"$50,000-$59,999",yes,married,4,1369,white
